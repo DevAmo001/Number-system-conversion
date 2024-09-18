@@ -1,0 +1,38 @@
+p {
+  font-family: Helvetica;
+  font-size: 30px;
+}
+
+.input-box,
+.number-system-options {
+  padding: 20px 20px;
+  width: 300px;
+  font-size: 25px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.convert-btn {
+  margin-top: 10px;
+  height: 45px;
+  width: 150px;
+  border: none;
+  background-color: rgb(1, 97, 1);
+  font-weight: 700;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.convert-btn:hover {
+  background-color: rgb(18, 192, 18);
+}
+
+.convert-btn:active {
+  background-color: rgb(71, 221, 71);
+}
