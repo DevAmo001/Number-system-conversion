@@ -1,5 +1,6 @@
 function convertInput() {
   const inputElement = document.querySelector('.js-input-content').value;
+  console.log(inputElement);
   const pickedSystem = document.querySelector('.js-number-systems-options').value;
 
   let result;
